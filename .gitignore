@@ -1,0 +1,18 @@
+# Runtime files
+logs/
+crash-reports/
+debug/
+world/
+backups/
+
+# Forge/Minecraft Binaries (These are generated/downloaded by the installer)
+libraries/
+versions/
+run.sh
+run.bat
+.forge-installed
+forge-*.jar
+minecraft_server*.jar
+
+# IDE/OS junk
+.DS_Store
