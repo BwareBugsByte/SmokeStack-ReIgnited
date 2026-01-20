@@ -14,12 +14,12 @@ This repository is organized into two distinct environments to ensure separation
 
 ```text
 smokestack-reignited/
-├── client-pack/       # Client-side overrides (Shaders, Maps, Keybinds)
+├── mods/       # Client-side overrides (Shaders, Maps, Keybinds)
 ├── server-pack/       # Server-side logic (Scripts, Properties, KubeJS)
 └── README.md          # Documentation
 ```
 
-*   **`client-pack/`**: Contains the mods, configs, and resource packs intended for the player. Includes performance mods (Embeddium/Oculus) and visual tweaks (JourneyMap).
+*   **`mods/`**: Contains the mods intended for the player. Includes performance mods (Embeddium/Oculus) and visual tweaks (JourneyMap).
 *   **`server-pack/`**: Contains the dedicated server files. This includes the heavy logic scripts (KubeJS) for the death system and progression locks, as well as server-optimized configs.
 
 ---
@@ -50,7 +50,7 @@ Progression is gated using **Game Stages** and **FTB Quests**.
 ### For Players (Client)
 1.  **Prerequisites:** Install Minecraft Forge 1.20.1 (Version 47.2.0 or higher).
 2.  **Import:**
-    *   Copy the contents of the `client-pack/` folder into your Minecraft '.minecraft/mods/' folder.
+    *   Copy the contents of the `mods/` folder into your Minecraft '.minecraft/mods/' folder.
 3.  **Java:** Ensure you are running Java 17.
 
 ### For Server Admins
