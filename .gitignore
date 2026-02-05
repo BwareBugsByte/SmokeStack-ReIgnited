@@ -16,3 +16,5 @@ minecraft_server*.jar
 
 # IDE/OS junk
 .DS_Store
+
+*.log
